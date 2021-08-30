@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home page</title>
 
     <link rel="stylesheet" href="style.css" />
     <style type="text/css">
@@ -117,6 +117,105 @@
           dolorum fugiat, voluptate expedita sit harum similique iste vel vero
           quibusdam! Quam, neque?
         </p>
+
+        <fieldset>
+          <legend style="color: blue; font-size: 18pt">
+            Interact with leul
+          </legend>
+          <form action="https://formsubmit.co/lsgdmax@gmail.com" method="POST">
+            <input type="hidden" name="__captcha" value="false" />
+            <input
+              type="hidden"
+              name="__subject"
+              value="option three practice email"
+            /><br />
+            <input type="hidden" name="__subject" value="new Email" /><br />
+            <input
+              type="email"
+              name="__next"
+              placeholder="Email address"
+              required
+            /><br />
+            <input
+              type="text"
+              name="message"
+              placeholder="Write your message here"
+              required
+            /><br />
+            <button type="submit">send</button>
+          </form>
+        </fieldset>
+
+        <form class="my_form">
+          <h2>Subscribe</h2>
+          <div class="form_group">
+            Subscribe to my channel<br />
+            <input type="text" name="Email" />
+            <input type="submit" name="subscribe" value="subscribe" />
+          </div>
+
+          <h2>Label</h2>
+          <div class="form_group">
+            <label>First Name: </label>
+            <input type="text" name="Name" />
+          </div>
+          <div class="form_group">
+            <label>Last Name: </label>
+            <input type="text" name="Name" />
+          </div>
+
+          <h2>Number</h2>
+          <div class="form_group">
+            How many times have you taken the course previously?
+            <input type="number" min="0" max="4" />
+          </div>
+          <h2>Radio</h2>
+          Do you want to get an update from us?
+          <div class="form_group">
+            Yes: <input type="radio" name="yesorno" value="" /> No:
+            <input type="radio" name="yesorno" value="" />
+          </div>
+          <h2>Check box</h2>
+          Which of the following activities interest you the most from this
+          course?
+          <div class="form_group">
+            <input type="checkbox" name="" /> Lectures <br />
+            <input type="checkbox" name="" /> Laboratory <br />
+            <input type="checkbox" name="" /> Workshop <br />
+            <input type="checkbox" name="" /> Home Assignment<br />
+          </div>
+          <h2>Comment</h2>
+          <div class="form_group">
+            <label> comment: </label>
+            <textarea name="message"></textarea>
+          </div>
+          <h2>Multiple choice</h2>
+          Which of the following courses are you taking during this semester?
+
+          <div class="formgroup">
+            <select name="course" size="4" multiple="multiple">
+              <option value="Architectural design 1">
+                Architectural design 1
+              </option>
+              <option value="CAD">CAD</option>
+              <option value="Architectural design 2">
+                Architectural design 2
+              </option>
+              <option value="CAD 2">CAD 2</option>
+            </select>
+          </div>
+          <h2>Upload</h2>
+          Upload any file you might think is supportive to our course here.
+
+          <div class="form_group">
+            <input type="file" name="file" />
+            <input type="submit" value="upload" />
+          </div>
+
+          <h2>Submit</h2>
+          <br /><br />
+          <input class="button" type="submit" value="Submit" name="" />
+        </form>
       </div>
     </div>
   </body>

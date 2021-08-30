@@ -16,7 +16,25 @@ a:hover {
   color: cornsilk;
   background-color: darkblue;
 }
+.form_group {
+  border: solid 2pt #66eb0d;
+  border-radius: 10%;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  padding: 5px;
+  margin-left: 40%;
+}
 
+.formgroup {
+  border: solid 2pt #66eb0d;
+  border-radius: 10%;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  padding: 5px;
+  margin-left: 40%;
+}
 .container {
   display: flex;
 }
